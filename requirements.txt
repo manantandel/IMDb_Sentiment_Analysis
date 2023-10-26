@@ -1,0 +1,7 @@
+streamlit
+bs4 
+selenium 
+pandas
+plotly
+requests 
+scikit-learn

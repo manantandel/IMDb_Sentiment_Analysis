@@ -1,0 +1,22 @@
+1698293322517	geckodriver	INFO	Listening on 127.0.0.1:61997
+1698293325613	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "619 ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\manan\\AppData\\Local\\Temp\\rust_mozprofileg9O7Yb"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698293326166	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698293326290	Marionette	INFO	Listening on port 62011
+WebDriver BiDi listening on ws://127.0.0.1:61998
+Read port: 62011
+1698293326611	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61998/devtools/browser/09792486-6f59-46b9-8818-313090de64ce
+1698293331935	Marionette	INFO	Stopped listening on port 62011
+JavaScript warning: https://c.amazon-adsystem.com/bao-csm/imdb-web-display/csmv5.js, line 1: Script terminated by timeout at:
+a.getPixelID@https://c.amazon-adsystem.com/bao-csm/imdb-web-display/csmv5.js:1:10014
+e.send@https://c.amazon-adsystem.com/bao-csm/imdb-web-display/csmv5.js:1:16056
+e.addPixel/<@https://c.amazon-adsystem.com/bao-csm/imdb-web-display/csmv5.js:1:15944
+a.setTimeout/<@https://c.amazon-adsystem.com/bao-csm/imdb-web-display/csmv5.js:1:10743
+
+Dynamically enable window occlusion 1
