@@ -354,7 +354,9 @@ elif analysis_choice == ":orange[Enter URL]":
     st.markdown("""<style>
                         div[data-testid="stExpander"] div[role="button"] p {font-size: 26px;}</style>""", unsafe_allow_html=True)
     with st.expander("Which URL to Enter?"):
-            st.write("Step 1: Open the IMDb Link of the Movie/Series.\nStep 2: Scroll Down to 'User Reviews' and Click on it\nStep 3: Copy the URL of the page which opens once you click 'User Review'")
+            st.write("Step 1: Open the IMDb Link of the Movie/Series.'")
+            st.write("Step 2: Scroll Down to 'User Reviews' and Click on it")
+            st.write("Step 3: Copy the URL of the page which opens once you click 'User Review'")
             st.write("""
                 <div style="display: flex; justify-content: center;">
                     <img src="https://i.imgur.com/DZSIkAK.png" alt="Centered Image">
