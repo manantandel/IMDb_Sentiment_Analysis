@@ -5,6 +5,7 @@ import requests
 import pandas as pd
 import pickle
 import plotly.express as px
+import numpy as np
 
 def scrape(url_rec):
     title_list = []
@@ -376,7 +377,7 @@ elif analysis_choice == ":orange[Enter URL]":
 
         df_process = df.copy()
         
-        df_process["Rating"].replace("No Rating Given", pd.NA, inplace=True)
+        df_process["Rating"].replace("No Rating Given", np.nan, inplace=True)
         df_process["Rating"].fillna(df_process["Rating"].median(), inplace=True)
         df_process['Rating'].astype(int)
         review_list = df_process['Review'].to_list()
