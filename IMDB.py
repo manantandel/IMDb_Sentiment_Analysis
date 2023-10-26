@@ -351,6 +351,14 @@ if analysis_choice == ":orange[User Input]":
         
 
 elif analysis_choice == ":orange[Enter URL]":
+    st.markdown("""<style>
+                        div[data-testid="stExpander"] div[role="button"] p {font-size: 26px;}</style>""", unsafe_allow_html=True)
+    with st.expander("Which URL to Enter?"):
+            st.write("""
+                <div style="display: flex; justify-content: center;">
+                    <img src="https://i.imgur.com/DZSIkAK.png" alt="Centered Image">
+                </div>
+                """, unsafe_allow_html=True)
     review_url = st.text_input("Enter URL")
     st.markdown(
     """<style>
@@ -377,8 +385,8 @@ elif analysis_choice == ":orange[Enter URL]":
         df_process = df.copy()
         
         df_process["Rating"].replace("No Rating Given", np.nan, inplace=True)
+        df_process['Rating'] = pd.to_numeric(df_process['Rating'], errors='coerce', downcast='integer')
         df_process["Rating"].fillna(df_process["Rating"].median(), inplace=True)
-        df_process['Rating'].astype(int)
         review_list = df_process['Review'].to_list()
         rating_list = df_process["Rating"].to_list()
         df_ratings = df_process.groupby("Rating").size().reset_index(name="Count")
