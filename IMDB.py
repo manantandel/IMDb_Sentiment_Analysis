@@ -371,7 +371,6 @@ elif analysis_choice == ":orange[Enter URL]":
     start_button = st.button("Start Scraping")
 
     if start_button:
-        progress_bar = st.progress(0)
         df = scrape(review_url)
         movie_name = get_movie(review_url)
 
