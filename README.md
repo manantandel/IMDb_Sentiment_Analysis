@@ -2,6 +2,7 @@
 ![](https://i.imgur.com/q5IiPXi.png)
 ## Streamlit Deployment Link
 [IMDb Sentiment Analysis](https://imdb-sentiment-analysis.streamlit.app/)
+## Project Details
 ### Introduction
 IMDb is an online database of information related to entertainment industry, it contains various data related to movies, television series, podcasts and several other form of media.
 ### Objective
