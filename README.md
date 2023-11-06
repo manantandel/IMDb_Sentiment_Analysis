@@ -1,5 +1,5 @@
 # IMDb Sentiment Analysis
-
+![](https://i.imgur.com/q5IiPXi.png)
 ### Introduction
 IMDb is an online database of information related to entertainment industry, it contains various data related to movies, television series, podcasts and several other form of media.
 ### Objective
