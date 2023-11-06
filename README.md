@@ -9,6 +9,15 @@ The objective of this project is to develop a sentiment analysis model for IMDb 
 - Review title, star rating and actual review were scraped for each review of the movie.
 - The final size of dataset was 111555 independent entries of reviews and respective user rating.
 ### Python Libraries Used
-Pandas, Numpy, nltk, textblob, statistics, Sklearn, Matplotlib, Pickle
+```
+Pandas
+Numpy
+nltk
+textblob
+statistics
+Sklearn
+Matplotlib
+Pickle
+```
 ### Models trained
 KNN Classifier Algorithm, Multinomial Naïve-Bayes Algorithm, Logistic Regression Model, and Decision Tree
