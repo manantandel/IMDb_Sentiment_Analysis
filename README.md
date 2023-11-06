@@ -19,10 +19,10 @@ Scikit-learn
 ```
 ### Models trained
 1. KNN Classifier Algorithm
-   - Accuracy: 73
+   - Accuracy: 73%
 2. Multinomial Naïve-Bayes Algorithm
-   - Accuracy: 73
+   - Accuracy: 76%
 3. Logistic Regression Model
-   - Accuracy: 73
+   - Accuracy: 87%
 4. Decision Tree
-   - Accuracy: 73
+   - Accuracy: 75%
