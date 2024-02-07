@@ -767,5 +767,4 @@ elif analysis_choice == ":orange[Enter URL]":
                     fig.update_layout(xaxis= dict(tickmode='linear'))
                     fig.update_xaxes(range=[1,10])
                     st.plotly_chart(fig,theme="streamlit" ,use_container_width=True)
-
-                
+#
